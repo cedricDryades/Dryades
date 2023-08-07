@@ -37,7 +37,7 @@ PROXY_PASS='';
 ## Array with feeds url-s (string) and download directories (string or empty)
 ## for each url. Remember - 1st is url, 2nd - path, 3rd - url, 4rd - path, etc.
 FEED_URLS_AND_DIRS=(\
-  'http://showrss.info/user/117248.rss?magnets=true&namespaces=true&name=null&quality=null&re=null'              '/srv/clutch/' \
+  'http://showrss.info/yourfeedhere'              '/where/to/dl' \
 
 );
 
@@ -45,7 +45,7 @@ FEED_URLS_AND_DIRS=(\
 ## file ("rpc-enabled": true, "rpc-port": 9091, "rpc-whitelist": "127.0.0.1")
 TRANSMISSION_REMOTE=$(which transmission-remote 2>/dev/null);
 TRANSMISSION_RPC_USER='clutch';
-TRANSMISSION_RPC_PASS='chocolate';
+TRANSMISSION_RPC_PASS='password';
 TRANSMISSION_RPC_HOST='127.0.0.1';
 TRANSMISSION_RPC_PORT='9091';
 
